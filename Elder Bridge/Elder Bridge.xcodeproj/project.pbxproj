@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1B064824839AA800603C4E /* OrderSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1B064724839AA800603C4E /* OrderSumViewController.swift */; };
+		FE1B064A2483A01E00603C4E /* recentOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1B06492483A01E00603C4E /* recentOrderViewController.swift */; };
+		FE1B064C2483A53200603C4E /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1B064B2483A53200603C4E /* CatalogViewController.swift */; };
+		FE7B25B0248223C400437CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25AF248223C400437CEA /* AppDelegate.swift */; };
+		FE7B25B2248223C400437CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25B1248223C400437CEA /* SceneDelegate.swift */; };
+		FE7B25B4248223C400437CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25B3248223C400437CEA /* ViewController.swift */; };
+		FE7B25B7248223C400437CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7B25B5248223C400437CEA /* Main.storyboard */; };
+		FE7B25B9248223C600437CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7B25B8248223C600437CEA /* Assets.xcassets */; };
+		FE7B25BC248223C600437CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7B25BA248223C600437CEA /* LaunchScreen.storyboard */; };
+		FE7B25C7248223C600437CEA /* Elder_BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25C6248223C600437CEA /* Elder_BridgeTests.swift */; };
+		FE7B25D2248223C600437CEA /* Elder_BridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25D1248223C600437CEA /* Elder_BridgeUITests.swift */; };
+		FE7B25E02482313D00437CEA /* gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25DF2482313D00437CEA /* gradient.swift */; };
+		FE7B25E2248232C500437CEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25E1248232C500437CEA /* Constants.swift */; };
+		FE7B25E4248239BB00437CEA /* customNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25E3248239BB00437CEA /* customNavBarViewController.swift */; };
+		FE7B25E624823C8600437CEA /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B25E524823C8600437CEA /* MainPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE7B25C3248223C600437CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7B25A4248223C400437CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7B25AB248223C400437CEA;
+			remoteInfo = "Elder Bridge";
+		};
+		FE7B25CE248223C600437CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7B25A4248223C400437CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7B25AB248223C400437CEA;
+			remoteInfo = "Elder Bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1B064724839AA800603C4E /* OrderSumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSumViewController.swift; sourceTree = "<group>"; };
+		FE1B06492483A01E00603C4E /* recentOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentOrderViewController.swift; sourceTree = "<group>"; };
+		FE1B064B2483A53200603C4E /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		FE7B25AC248223C400437CEA /* Elder Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elder Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7B25AF248223C400437CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE7B25B1248223C400437CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE7B25B3248223C400437CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE7B25B6248223C400437CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE7B25B8248223C600437CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7B25BB248223C600437CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE7B25BD248223C600437CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7B25C2248223C600437CEA /* Elder BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elder BridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7B25C6248223C600437CEA /* Elder_BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder_BridgeTests.swift; sourceTree = "<group>"; };
+		FE7B25C8248223C600437CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7B25CD248223C600437CEA /* Elder BridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elder BridgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7B25D1248223C600437CEA /* Elder_BridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder_BridgeUITests.swift; sourceTree = "<group>"; };
+		FE7B25D3248223C600437CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7B25DF2482313D00437CEA /* gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradient.swift; sourceTree = "<group>"; };
+		FE7B25E1248232C500437CEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE7B25E3248239BB00437CEA /* customNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customNavBarViewController.swift; sourceTree = "<group>"; };
+		FE7B25E524823C8600437CEA /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7B25A9248223C400437CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25BF248223C600437CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25CA248223C600437CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7B25A3248223C400437CEA = {
+			isa = PBXGroup;
+			children = (
+				FE7B25AE248223C400437CEA /* Elder Bridge */,
+				FE7B25C5248223C600437CEA /* Elder BridgeTests */,
+				FE7B25D0248223C600437CEA /* Elder BridgeUITests */,
+				FE7B25AD248223C400437CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7B25AD248223C400437CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B25AC248223C400437CEA /* Elder Bridge.app */,
+				FE7B25C2248223C600437CEA /* Elder BridgeTests.xctest */,
+				FE7B25CD248223C600437CEA /* Elder BridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7B25AE248223C400437CEA /* Elder Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B25AF248223C400437CEA /* AppDelegate.swift */,
+				FE7B25B1248223C400437CEA /* SceneDelegate.swift */,
+				FE7B25B3248223C400437CEA /* ViewController.swift */,
+				FE7B25E1248232C500437CEA /* Constants.swift */,
+				FE1B06492483A01E00603C4E /* recentOrderViewController.swift */,
+				FE7B25DF2482313D00437CEA /* gradient.swift */,
+				FE7B25E3248239BB00437CEA /* customNavBarViewController.swift */,
+				FE7B25E524823C8600437CEA /* MainPageViewController.swift */,
+				FE1B064B2483A53200603C4E /* CatalogViewController.swift */,
+				FE1B064724839AA800603C4E /* OrderSumViewController.swift */,
+				FE7B25B5248223C400437CEA /* Main.storyboard */,
+				FE7B25B8248223C600437CEA /* Assets.xcassets */,
+				FE7B25BA248223C600437CEA /* LaunchScreen.storyboard */,
+				FE7B25BD248223C600437CEA /* Info.plist */,
+			);
+			path = "Elder Bridge";
+			sourceTree = "<group>";
+		};
+		FE7B25C5248223C600437CEA /* Elder BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B25C6248223C600437CEA /* Elder_BridgeTests.swift */,
+				FE7B25C8248223C600437CEA /* Info.plist */,
+			);
+			path = "Elder BridgeTests";
+			sourceTree = "<group>";
+		};
+		FE7B25D0248223C600437CEA /* Elder BridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B25D1248223C600437CEA /* Elder_BridgeUITests.swift */,
+				FE7B25D3248223C600437CEA /* Info.plist */,
+			);
+			path = "Elder BridgeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7B25AB248223C400437CEA /* Elder Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7B25D6248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder Bridge" */;
+			buildPhases = (
+				FE7B25A8248223C400437CEA /* Sources */,
+				FE7B25A9248223C400437CEA /* Frameworks */,
+				FE7B25AA248223C400437CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elder Bridge";
+			productName = "Elder Bridge";
+			productReference = FE7B25AC248223C400437CEA /* Elder Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE7B25C1248223C600437CEA /* Elder BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7B25D9248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder BridgeTests" */;
+			buildPhases = (
+				FE7B25BE248223C600437CEA /* Sources */,
+				FE7B25BF248223C600437CEA /* Frameworks */,
+				FE7B25C0248223C600437CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7B25C4248223C600437CEA /* PBXTargetDependency */,
+			);
+			name = "Elder BridgeTests";
+			productName = "Elder BridgeTests";
+			productReference = FE7B25C2248223C600437CEA /* Elder BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE7B25CC248223C600437CEA /* Elder BridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7B25DC248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder BridgeUITests" */;
+			buildPhases = (
+				FE7B25C9248223C600437CEA /* Sources */,
+				FE7B25CA248223C600437CEA /* Frameworks */,
+				FE7B25CB248223C600437CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7B25CF248223C600437CEA /* PBXTargetDependency */,
+			);
+			name = "Elder BridgeUITests";
+			productName = "Elder BridgeUITests";
+			productReference = FE7B25CD248223C600437CEA /* Elder BridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7B25A4248223C400437CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ashmita Rajkumar";
+				TargetAttributes = {
+					FE7B25AB248223C400437CEA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FE7B25C1248223C600437CEA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FE7B25AB248223C400437CEA;
+					};
+					FE7B25CC248223C600437CEA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FE7B25AB248223C400437CEA;
+					};
+				};
+			};
+			buildConfigurationList = FE7B25A7248223C400437CEA /* Build configuration list for PBXProject "Elder Bridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7B25A3248223C400437CEA;
+			productRefGroup = FE7B25AD248223C400437CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7B25AB248223C400437CEA /* Elder Bridge */,
+				FE7B25C1248223C600437CEA /* Elder BridgeTests */,
+				FE7B25CC248223C600437CEA /* Elder BridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7B25AA248223C400437CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B25BC248223C600437CEA /* LaunchScreen.storyboard in Resources */,
+				FE7B25B9248223C600437CEA /* Assets.xcassets in Resources */,
+				FE7B25B7248223C400437CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25C0248223C600437CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25CB248223C600437CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7B25A8248223C400437CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1B064C2483A53200603C4E /* CatalogViewController.swift in Sources */,
+				FE7B25E4248239BB00437CEA /* customNavBarViewController.swift in Sources */,
+				FE7B25E624823C8600437CEA /* MainPageViewController.swift in Sources */,
+				FE7B25E2248232C500437CEA /* Constants.swift in Sources */,
+				FE7B25B4248223C400437CEA /* ViewController.swift in Sources */,
+				FE7B25B0248223C400437CEA /* AppDelegate.swift in Sources */,
+				FE7B25B2248223C400437CEA /* SceneDelegate.swift in Sources */,
+				FE1B064A2483A01E00603C4E /* recentOrderViewController.swift in Sources */,
+				FE7B25E02482313D00437CEA /* gradient.swift in Sources */,
+				FE1B064824839AA800603C4E /* OrderSumViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25BE248223C600437CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B25C7248223C600437CEA /* Elder_BridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B25C9248223C600437CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7B25D2248223C600437CEA /* Elder_BridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE7B25C4248223C600437CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7B25AB248223C400437CEA /* Elder Bridge */;
+			targetProxy = FE7B25C3248223C600437CEA /* PBXContainerItemProxy */;
+		};
+		FE7B25CF248223C600437CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7B25AB248223C400437CEA /* Elder Bridge */;
+			targetProxy = FE7B25CE248223C600437CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE7B25B5248223C400437CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7B25B6248223C400437CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE7B25BA248223C600437CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7B25BB248223C600437CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE7B25D4248223C600437CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7B25D5248223C600437CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7B25D7248223C600437CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7B25D8248223C600437CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE7B25DA248223C600437CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder BridgeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elder Bridge.app/Elder Bridge";
+			};
+			name = Debug;
+		};
+		FE7B25DB248223C600437CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder BridgeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elder Bridge.app/Elder Bridge";
+			};
+			name = Release;
+		};
+		FE7B25DD248223C600437CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder BridgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elder Bridge";
+			};
+			name = Debug;
+		};
+		FE7B25DE248223C600437CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Elder BridgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ashmita.Elder-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elder Bridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7B25A7248223C400437CEA /* Build configuration list for PBXProject "Elder Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B25D4248223C600437CEA /* Debug */,
+				FE7B25D5248223C600437CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7B25D6248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B25D7248223C600437CEA /* Debug */,
+				FE7B25D8248223C600437CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7B25D9248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B25DA248223C600437CEA /* Debug */,
+				FE7B25DB248223C600437CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7B25DC248223C600437CEA /* Build configuration list for PBXNativeTarget "Elder BridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7B25DD248223C600437CEA /* Debug */,
+				FE7B25DE248223C600437CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7B25A4248223C400437CEA /* Project object */;
+}
